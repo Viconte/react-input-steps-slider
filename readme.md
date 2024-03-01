@@ -3,6 +3,9 @@
 ![](https://i.postimg.cc/GtJkFt1x/2024-03-01-12-08-10.png)
 ![](https://i.postimg.cc/R0nYfkgV/2024-03-01-12-22-26.png)
 
+## Demo
+[Demo](https://viconte.github.io/react-input-steps-slider/)
+
 ## Usage
 
 ```jsx
