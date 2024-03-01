@@ -1,0 +1,104 @@
+.root {
+    position: relative;
+    color: #000;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.track {
+    background-color: #E3E4EA;
+    position: relative;
+    height: 4px;
+    border-radius: 10px;
+}
+
+.trackActive {
+    background-color: #9A41FE;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 0;
+    border-radius: 10px;
+}
+
+.slider {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    height: 14px;
+    width: 14px;
+    padding: 0;
+    border: 2px solid #9A41FE;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: #E3E4EA;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+
+.sliderLabel {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'WB Hauss', sans-serif;
+    font-size: 16px;
+}
+
+.sliderLabelValue {
+    position: relative;
+    left: -50%;
+    white-space: nowrap;
+}
+
+.legend {
+    position: relative;
+    z-index: 1;
+    height: 4px;
+}
+
+.step {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 8px;
+    width: 8px;
+    margin-top: -2px;
+    background-color: #E3E4EA;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.step:first-child,
+.step:last-child {
+    background: none;
+}
+
+.step:first-child {
+    justify-content: flex-start;
+}
+
+.step:last-child {
+    justify-content: flex-end;
+}
+
+.step.active {
+    background-color: #9A41FE;
+}
+
+.stepLabel {
+    display: inline-block;
+    margin-top: 10px;
+    color: #77767E;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 440;
+    line-height: 16px;
+    letter-spacing: 0.13px;
+    white-space: nowrap;
+}

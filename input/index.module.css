@@ -1,0 +1,48 @@
+.root {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    height: 36px;
+    color: #000;
+}
+
+.inputBox {
+    display: inline-flex;
+    flex: 0 1 auto;
+    max-width: 100%;
+    min-width: 0;
+    position: relative;
+}
+
+.inputContent {
+    visibility: hidden;
+    white-space: pre;
+    font-family: "WB Hauss VF";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 680;
+    line-height: 36px;
+}
+
+.input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: "WB Hauss VF";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 680;
+    line-height: 36px;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+    background-image: url('./images/pencil.svg');
+    cursor: pointer;
+}
