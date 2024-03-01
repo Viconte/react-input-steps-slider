@@ -1,8 +1,8 @@
 {
-  "name": "react-input-steps-slider",
+  "name": "react-steps-slider",
   "version": "0.0.1",
   "description": "Слайдер с изменяемым шагом и диапазонами",
-  "main": "index.js",
+  "main": "public/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
