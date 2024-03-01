@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72694f7c.css",
+    "main.js": "/static/js/main.b01ca426.js",
+    "static/js/592.30ef6d14.chunk.js": "/static/js/592.30ef6d14.chunk.js",
+    "static/media/als-hauss-vf.ttf": "/static/media/als-hauss-vf.b709e7bab16d4dd7d164.ttf",
+    "static/media/hauss-thin-italic.woff2": "/static/media/hauss-thin-italic.4d29c800d08cab0a14ef.woff2",
+    "static/media/hauss-medium-italic.woff2": "/static/media/hauss-medium-italic.cd9a6f3453d183207d39.woff2",
+    "static/media/hauss-book-italic.woff2": "/static/media/hauss-book-italic.0f9bd1ae96e6f8b0c5ba.woff2",
+    "static/media/hauss-bold-italic.woff2": "/static/media/hauss-bold-italic.f0150bb362e32a4bc8aa.woff2",
+    "static/media/hauss-light-italic.woff2": "/static/media/hauss-light-italic.2ad946ca38bfec244789.woff2",
+    "static/media/hauss-regular-italic.woff2": "/static/media/hauss-regular-italic.4d98e1e42425d220da92.woff2",
+    "static/media/hauss-hairline-italic.woff2": "/static/media/hauss-hairline-italic.0101383b9b2d838885a2.woff2",
+    "static/media/hauss-black-italic.woff2": "/static/media/hauss-black-italic.1da75ae84037a59e24dc.woff2",
+    "static/media/hauss-thin.woff2": "/static/media/hauss-thin.186e3df1a3fd7c9da049.woff2",
+    "static/media/hauss-book.woff2": "/static/media/hauss-book.a223cb788bd7980a5410.woff2",
+    "static/media/hauss-medium.woff2": "/static/media/hauss-medium.f7fb80e5b276629c94fb.woff2",
+    "static/media/hauss-bold.woff2": "/static/media/hauss-bold.f801d610414238176151.woff2",
+    "static/media/hauss-light.woff2": "/static/media/hauss-light.0bc7ad383f520c537000.woff2",
+    "static/media/hauss-hairline.woff2": "/static/media/hauss-hairline.8647c2746e374e22d86d.woff2",
+    "static/media/hauss-regular.woff2": "/static/media/hauss-regular.e0b0d410abe3ff1c9dd6.woff2",
+    "static/media/hauss-black.woff2": "/static/media/hauss-black.74f97b9157442e6b030e.woff2",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/pencil.svg": "/static/media/pencil.c7eee3506012d44f3f8e.svg",
+    "index.html": "/index.html",
+    "main.72694f7c.css.map": "/static/css/main.72694f7c.css.map",
+    "main.b01ca426.js.map": "/static/js/main.b01ca426.js.map",
+    "592.30ef6d14.chunk.js.map": "/static/js/592.30ef6d14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72694f7c.css",
+    "static/js/main.b01ca426.js"
+  ]
+}
