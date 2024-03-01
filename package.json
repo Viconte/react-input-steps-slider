@@ -1,0 +1,30 @@
+{
+  "name": "react-input-steps-slider",
+  "version": "0.0.1",
+  "description": "Слайдер с изменяемым шагом и диапазонами",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viconte/react-input-steps-slider.git"
+  },
+  "keywords": [
+    "react",
+    "slider",
+    "input-range"
+  ],
+  "author": "Andrianov Viktor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viconte/react-input-steps-slider/issues"
+  },
+  "homepage": "https://github.com/Viconte/react-input-steps-slider#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.23.3",
+    "@babel/preset-react": "^7.23.3"
+  }
+}
