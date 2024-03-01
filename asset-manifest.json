@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-input-steps-slider/static/css/main.5c5d1319.css",
-    "main.js": "/react-input-steps-slider/static/js/main.73763c4b.js",
+    "main.css": "/react-input-steps-slider/static/css/main.207067d9.css",
+    "main.js": "/react-input-steps-slider/static/js/main.18f9c127.js",
     "static/js/592.30ef6d14.chunk.js": "/react-input-steps-slider/static/js/592.30ef6d14.chunk.js",
     "static/media/als-hauss-vf.ttf": "/react-input-steps-slider/static/media/als-hauss-vf.b709e7bab16d4dd7d164.ttf",
     "static/media/hauss-thin-italic.woff2": "/react-input-steps-slider/static/media/hauss-thin-italic.4d29c800d08cab0a14ef.woff2",
@@ -22,12 +22,12 @@
     "static/media/hauss-black.woff2": "/react-input-steps-slider/static/media/hauss-black.74f97b9157442e6b030e.woff2",
     "static/media/pencil.svg": "/react-input-steps-slider/static/media/pencil.c7eee3506012d44f3f8e.svg",
     "index.html": "/react-input-steps-slider/index.html",
-    "main.5c5d1319.css.map": "/react-input-steps-slider/static/css/main.5c5d1319.css.map",
-    "main.73763c4b.js.map": "/react-input-steps-slider/static/js/main.73763c4b.js.map",
+    "main.207067d9.css.map": "/react-input-steps-slider/static/css/main.207067d9.css.map",
+    "main.18f9c127.js.map": "/react-input-steps-slider/static/js/main.18f9c127.js.map",
     "592.30ef6d14.chunk.js.map": "/react-input-steps-slider/static/js/592.30ef6d14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c5d1319.css",
-    "static/js/main.73763c4b.js"
+    "static/css/main.207067d9.css",
+    "static/js/main.18f9c127.js"
   ]
 }
