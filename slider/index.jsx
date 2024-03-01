@@ -32,17 +32,11 @@ export const Slider = ({
       const stepPercent = 100 / (steps.length);
 
       const indexCurrentInterval = steps.findIndex(step => step[0] <= value && value <= step[1]);
-      // console.log('indexCurrentInterval', indexCurrentInterval);
       const currentInterval = steps?.[indexCurrentInterval];
-      // console.log('currentInterval', currentInterval);
       const valueInCurrentInterval = value - currentInterval[0];
-      // console.log('valueInCurrentInterval', valueInCurrentInterval);
       const totalValueInCurrentInterval = currentInterval[1] - currentInterval[0];
-      // console.log('totalValueInCurrentInterval', totalValueInCurrentInterval);
       const percentInCurrentInterval = valueInCurrentInterval * stepPercent / totalValueInCurrentInterval
-      // console.log('percentInCurrentInterval', percentInCurrentInterval);
       const newPercent = indexCurrentInterval * stepPercent + percentInCurrentInterval;
-      // console.log('newPercent', newPercent);
 
       setPercent(newPercent);
     }
@@ -108,24 +102,15 @@ export const Slider = ({
         shiftX = width;
       }
 
-      const totalPercent = (shiftX * 100) / width; // 1
-      // console.log(`totalPercent: ${totalPercent}`);
+      const totalPercent = (shiftX * 100) / width;
       const currentInterval = getCurrentInterval(totalPercent);
-      // console.log(`currentInterval: ${currentInterval}`);
       const boundsCurrentInterval = getBoundsCurrentInterval(totalPercent);
-      // console.log(`boundsCurrentInterval: ${boundsCurrentInterval}`);
-      const currentIntervalPercent = getCurrentIntervalPercent(totalPercent, boundsCurrentInterval); // 2
-      // console.log(`currentIntervalPercent: ${currentIntervalPercent}`);
-      const totalCountStepsCurrentInterval = getTotalCountStepsCurrentInterval(currentInterval); // 3
-      // console.log(`totalCountStepsCurrentInterval: ${totalCountStepsCurrentInterval}`);
-      const countStepsCurrentInterval = getCountStepsCurrentInterval(totalCountStepsCurrentInterval, currentIntervalPercent); // 4, 5
-      // console.log(`countStepsCurrentInterval: ${countStepsCurrentInterval}`);
-      const correctPercentCurrentInterval = getCorrectPercentCurrentInterval(countStepsCurrentInterval, totalCountStepsCurrentInterval) // 6
-      // console.log(`correctPercentCurrentInterval: ${correctPercentCurrentInterval}`);
-      const valueCurrentInterval = getValueCurrentInterval(currentInterval, countStepsCurrentInterval); // 7
-      // console.log(`valueCurrentInterval: ${valueCurrentInterval}`);
+      const currentIntervalPercent = getCurrentIntervalPercent(totalPercent, boundsCurrentInterval);
+      const totalCountStepsCurrentInterval = getTotalCountStepsCurrentInterval(currentInterval);
+      const countStepsCurrentInterval = getCountStepsCurrentInterval(totalCountStepsCurrentInterval, currentIntervalPercent);
+      const correctPercentCurrentInterval = getCorrectPercentCurrentInterval(countStepsCurrentInterval, totalCountStepsCurrentInterval)
+      const valueCurrentInterval = getValueCurrentInterval(currentInterval, countStepsCurrentInterval);
       const newValue = currentInterval[0] + valueCurrentInterval;
-      // console.log(`newValue: ${newValue}`);
       const percent = boundsCurrentInterval[0] + correctPercentCurrentInterval;
 
       setPercent(percent);
